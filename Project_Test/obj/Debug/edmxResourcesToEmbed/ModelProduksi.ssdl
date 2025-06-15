@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TeknikalTestModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TBL_PRODUKSI">
+    <Key>
+      <PropertyRef Name="iId" />
+    </Key>
+    <Property Name="iId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="iSenin" Type="int" />
+    <Property Name="iSelasa" Type="int" />
+    <Property Name="iRabu" Type="int" />
+    <Property Name="iKamis" Type="int" />
+    <Property Name="iJumat" Type="int" />
+    <Property Name="iSabtu" Type="int" />
+    <Property Name="iMinggu" Type="int" />
+    <Property Name="iSeninFix" Type="int" />
+    <Property Name="iSelasaFix" Type="int" />
+    <Property Name="iRabuFix" Type="int" />
+    <Property Name="iKamisFix" Type="int" />
+    <Property Name="iJumatFix" Type="int" />
+    <Property Name="iSabtuFix" Type="int" />
+    <Property Name="iMingguFix" Type="int" />
+    <Property Name="dCreatedAt" Type="datetime" Nullable="false" />
+    <Property Name="iIsActive" Type="int" Nullable="false" />
+    <Property Name="dCreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="dModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="TeknikalTestModelStoreContainer">
+    <EntitySet Name="TBL_PRODUKSI" EntityType="Self.TBL_PRODUKSI" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

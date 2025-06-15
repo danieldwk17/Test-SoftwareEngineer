@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TeknikalTestModelStoreContainer" CdmEntityContainer="TeknikalTestEntities">
+    <EntitySetMapping Name="TBL_PRODUKSI">
+      <EntityTypeMapping TypeName="TeknikalTestModel.TBL_PRODUKSI">
+        <MappingFragment StoreEntitySet="TBL_PRODUKSI">
+          <ScalarProperty Name="dModifiedDate" ColumnName="dModifiedDate" />
+          <ScalarProperty Name="dCreatedDate" ColumnName="dCreatedDate" />
+          <ScalarProperty Name="iIsActive" ColumnName="iIsActive" />
+          <ScalarProperty Name="dCreatedAt" ColumnName="dCreatedAt" />
+          <ScalarProperty Name="iMingguFix" ColumnName="iMingguFix" />
+          <ScalarProperty Name="iSabtuFix" ColumnName="iSabtuFix" />
+          <ScalarProperty Name="iJumatFix" ColumnName="iJumatFix" />
+          <ScalarProperty Name="iKamisFix" ColumnName="iKamisFix" />
+          <ScalarProperty Name="iRabuFix" ColumnName="iRabuFix" />
+          <ScalarProperty Name="iSelasaFix" ColumnName="iSelasaFix" />
+          <ScalarProperty Name="iSeninFix" ColumnName="iSeninFix" />
+          <ScalarProperty Name="iMinggu" ColumnName="iMinggu" />
+          <ScalarProperty Name="iSabtu" ColumnName="iSabtu" />
+          <ScalarProperty Name="iJumat" ColumnName="iJumat" />
+          <ScalarProperty Name="iKamis" ColumnName="iKamis" />
+          <ScalarProperty Name="iRabu" ColumnName="iRabu" />
+          <ScalarProperty Name="iSelasa" ColumnName="iSelasa" />
+          <ScalarProperty Name="iSenin" ColumnName="iSenin" />
+          <ScalarProperty Name="iId" ColumnName="iId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

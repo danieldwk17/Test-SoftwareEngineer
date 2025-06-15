@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TeknikalTestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TeknikalTestEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TBL_PRODUKSI" EntityType="TeknikalTestModel.TBL_PRODUKSI" />
+  </EntityContainer>
+  <EntityType Name="TBL_PRODUKSI">
+    <Key>
+      <PropertyRef Name="iId" />
+    </Key>
+    <Property Name="iId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="iSenin" Type="Int32" />
+    <Property Name="iSelasa" Type="Int32" />
+    <Property Name="iRabu" Type="Int32" />
+    <Property Name="iKamis" Type="Int32" />
+    <Property Name="iJumat" Type="Int32" />
+    <Property Name="iSabtu" Type="Int32" />
+    <Property Name="iMinggu" Type="Int32" />
+    <Property Name="iSeninFix" Type="Int32" />
+    <Property Name="iSelasaFix" Type="Int32" />
+    <Property Name="iRabuFix" Type="Int32" />
+    <Property Name="iKamisFix" Type="Int32" />
+    <Property Name="iJumatFix" Type="Int32" />
+    <Property Name="iSabtuFix" Type="Int32" />
+    <Property Name="iMingguFix" Type="Int32" />
+    <Property Name="dCreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="iIsActive" Type="Int32" Nullable="false" />
+    <Property Name="dCreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dModifiedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>
